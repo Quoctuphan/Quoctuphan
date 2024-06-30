@@ -46,7 +46,7 @@ function Login() {
                         </form>
 
                         <p className="mt-10 text-center text-sm text-gray-500">
-                            Don't have an account?
+                            Don't have an account test?
                         <a href="#" className="font-semibold leading-6 text-teal-600 hover:text-teal-800">join</a>
                         </p>
                  </div>
