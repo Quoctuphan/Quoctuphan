@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container-login{
+    width: 786px;
+    height: 532px;
+    display: flex;
+    border-radius: 5px;
+    border: solid #f2f3f4 2px;
+}
+.img-login{
+    width: 266px;
+    border-radius: 5px 0 0 5px;
+  
+}
+.content-login{
+    flex: 1;
+    border-radius: 0 5px 5px 0;
+}
+.img-login, .content-login,{
+    height: 100%;
+}
+.img-item-login{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.text-login{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 132px;
+    background: rgb(255, 255, 255);
+    border-radius: 0 5px 0 0;
+    padding: 64px 96px 32px;
+    text-align: center;
+}
+.header-login {
+    position: relative;
+}
+.text-login h2{
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    width: 100%
+}
+.btn-close{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 23px;
+}
+.body-login{
+    padding: 0px 64px
+}
+    
